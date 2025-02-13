@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactSVG } from "react-svg";
+import { TableRow } from "./model/types";
 import useUsersTodoTableDataFetch from "./hooks/usersTodoDataFetch";
 
 const UsersTodoTable = () => {
@@ -39,7 +40,7 @@ const UsersTodoTable = () => {
           </tr>
         </thead>
         <tbody className="rounded-b-lg">
-          {data.map((row) => (
+          {data.map((row: TableRow) => (
             <tr
               key={row.number}
               className={
