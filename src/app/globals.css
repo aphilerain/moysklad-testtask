@@ -4,18 +4,20 @@
 
 :root {
   --background: #373e45;
+  --foreground: #fff;
 }
 
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #373e45;
+    --foreground: #fff;
   }
 } */
 
 body {
   font-size: 16px;
   line-height: 19.36px;
-  /* color: var(--foreground); */
+  color: var(--foreground);
   background: var(--background);
   font-family: var(--font-inter);
 }
