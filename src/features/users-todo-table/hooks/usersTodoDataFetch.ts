@@ -1,6 +1,7 @@
 import { Todo } from "@/entities/todo/model/types";
 import { User } from "@/entities/user/model/types";
 import { useState, useEffect } from "react";
+import { TableRow } from "../model/types";
 
 export default function useUsersTodoTableDataFetch() {
   const [isLoading, setIsLoading] = useState(true);
