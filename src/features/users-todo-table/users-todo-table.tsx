@@ -29,7 +29,7 @@ const UsersTodoTable = () => {
         <thead className="bg-foreground">
           <tr className="">
             <th className="text-xxs uppercase text-center text-font-secondary-gray p-2 w-12 font-semibold md:text-xs">
-              TEST
+              #
             </th>
             <th className="p-2 text-xxs text-font-secondary-gray font-semibold uppercase text-left md:text-xs">
               username
