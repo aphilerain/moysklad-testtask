@@ -52,7 +52,7 @@ const UsersTodoTable = () => {
               </td>
               <td className="h-full p-2 gap-3">
                 <div className="flex items-center gap-3">
-                  <ReactSVG src="./moysklad-testtask/users.svg" />
+                  <ReactSVG src="./users.svg" />
                   <span className="text-xs md:text-base">
                     {row.userInfo.username}
                     <br />
