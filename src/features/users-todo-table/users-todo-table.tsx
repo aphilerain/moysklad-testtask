@@ -51,14 +51,16 @@ const UsersTodoTable = () => {
                 {row.number}
               </td>
               <td className="h-full p-2 gap-3">
-                <ReactSVG src="./users.svg" />
-                <span className="text-xs md:text-base">
-                  {row.userInfo.username}
-                  <br />
-                  <span className="text-xs text-font-secondary">
-                    {row.userInfo.email}
+                <div className="flex items-center gap-3">
+                  <ReactSVG src="./moysklad-testtask/users.svg" />
+                  <span className="text-xs md:text-base">
+                    {row.userInfo.username}
+                    <br />
+                    <span className="text-xs text-font-secondary">
+                      {row.userInfo.email}
+                    </span>
                   </span>
-                </span>
+                </div>
               </td>
               <td className="w-40 p-2 h-full text-xs text-center md:text-base md:text-left">
                 {row.todoCount}
