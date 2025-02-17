@@ -65,7 +65,7 @@ const UsersTodoTable = () => {
                 <div className="flex items-center gap-3">
                   <ReactSVG
                     src="./users.svg"
-                    alt="User avatar"
+                    // alt="User avatar"
                     aria-hidden="true"
                   />
                   <span className="text-xs md:text-base">
