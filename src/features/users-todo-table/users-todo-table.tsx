@@ -50,7 +50,7 @@ const UsersTodoTable = () => {
               <td className="h-full p-2 w-12 text-center text-xs md:text-base">
                 {row.number}
               </td>
-              <td className="h-full p-2 flex items-center gap-3">
+              <td className="h-full p-2 gap-3">
                 <ReactSVG src="./users.svg" />
                 <span className="text-xs md:text-base">
                   {row.userInfo.username}
