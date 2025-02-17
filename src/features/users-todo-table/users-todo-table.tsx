@@ -5,7 +5,7 @@ import { TableRow } from "./model/types";
 import useFetchTodos from "./hooks/useFetchTodos";
 
 const UsersTodoTable = () => {
-  const { data, isLoading, isError, error } = useFetchTodos();
+  const { data, isLoading, isError } = useFetchTodos();
 
   if (isLoading) {
     return <div>Данные грузятся...</div>;
